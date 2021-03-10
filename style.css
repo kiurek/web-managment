@@ -1,11 +1,37 @@
 div {
-    background-color: rgb(12, 12, 241);
+    position: absolute;
     padding: 10px;
     width: 200px;
     height: 20px;
 }
 #title {
-    background-color: navy;
+    background-color:royalblue;
+    width: 640px;
     top: 0;
-    right: 75%;
+    left: 0;
+}
+#left_column {
+    background-color: palegreen;
+    height: 100px;
+    top: 40px;
+    left: 0px;
+}
+#meat {
+    background-color: powderblue;
+    height: 100px;
+    left: 220px;
+    top: 40px;
+}
+#right_column {
+    background-color: rosybrown;
+    height: 100px;
+    left: 440px;
+    top: 40px;
+}
+#stopka {
+    background-color:seagreen;
+    width: 640px;
+    height: 25px;
+    left: 0;
+    top: 160px;
 }
