@@ -7,4 +7,51 @@ body {
 }
 #columns {
     display: flex;
+    background-color: rgba(153, 228, 255, 0.158);
+    justify-content: space-between ; 
+}
+#column-left {
+    width: 400px;
+}
+#column-right {
+    width: 400px;
+}
+#circles {
+    display: flex;
+    justify-content: center;
+}
+#circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(125, 191, 221);
+    opacity: 0.7;
+}
+#circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(125, 191, 221);
+    margin-left: -30px;
+    opacity: 0.7;
+}
+#circle3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(125, 191, 221);
+    margin-left: -30px;
+    opacity: 0.7;
+}
+#circle1:hover {
+    background-color: rgb(30, 81, 175);
+    opacity: 0.9;
+}
+#circle2:hover {
+    background-color: rgb(30, 81, 175);
+    opacity: 0.9;
+}
+#circle3:hover {
+    background-color: rgb(30, 81, 175);
+    opacity: 0.9;
 }
