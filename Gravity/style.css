@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+}
+#header-bar {
+    height: 5px;
+    background-color: #023a46;
+}
+#columns {
+    display: flex;
+}
