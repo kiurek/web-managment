@@ -46,10 +46,10 @@ body {
     justify-content: space-between;
 }
 #meat-left {
-    width: 400px;
+    width: 450px;
 }
 #meat-right {
-    width: 400px;
+    width: 450px;
 }
 #circles {
     display: flex;
@@ -98,6 +98,30 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: left;
+}
+#b_left{
+    width: 400px;
+}
+#b_left h1 {
+    border-bottom: 1px solid grey;
+}
+#b_centerleft {
+    width: 400px;
+}
+#b_centerleft h1 {
+    border-bottom: 1px solid grey;
+}
+#b_centerright {
+    width: 300px;
+}
+#b_centerright h1 {
+    border-bottom: 1px solid grey;
+}
+#b_right {
+    width: 400px;
+}
+#b_right h1 {
+    border-bottom: 1px solid grey;
 }
 #footer {
     text-align: center;
