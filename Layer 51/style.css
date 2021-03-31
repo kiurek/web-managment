@@ -1,22 +1,42 @@
 body {
-    margin: 0;
     background: #ccc;
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     min-height:  100vh;
     background-image: url(tlo.png);
     background-position: center center;
-    padding: 0px;
+}
+#main {
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #header {
     text-align: center;
     margin-top: 50px;
     color: #9ea5ac;
+    text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
-#square {
-    margin-top: 50px;
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
+    width: 500px;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 2.5px;
+}
 
+#meat h1 {
+    text-align: center;
+}
+#meat {
+    color: #9ea5ac;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
 }
