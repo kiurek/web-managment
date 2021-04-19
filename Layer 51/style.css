@@ -23,12 +23,22 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     background-color: #fff;
-    width: 500px;
-    height: 425px;
+    width: 600px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 2.5px;
+}
+.row { 
+    width: 25%;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.row img {
+    width: 95%;
 }
 
 #meat h1 {
