@@ -6,15 +6,22 @@ body {
     justify-content: space-between;
 }
 
+#main {
+    display: flex;
+}
+
 #menu_bar {
     width: 150px;
-    min-height:  100vh;
+    height:  100vh;
+    min-width: 150px;
     background-color: #242c3c;
     color: white;
     padding-left: 20px;
-    position: fixed;
     align-items: center;
-    float: left;
+}
+
+#menu_bar span {
+    color: #344f88;
 }
 
 #menu_bar h3 {
@@ -35,14 +42,21 @@ body {
 
 .mail-list {
     display: grid;
+    justify-content: center;
+    padding: 14px 16px;
     width: 350px;
+    min-width: 350px;
     height: 100vh;
-    padding-left: 190px;
     line-height: 15px;
     font-size: 13px;
     color: black;
     margin: 7px 0;
     overflow: auto;
+    padding-left: 0;
+}
+
+.mail-list span {
+    margin-left: 50px;
 }
 
 .mail-list h4 {
@@ -50,16 +64,96 @@ body {
     font-size: 13px;
     color: #999;
     text-transform: uppercase;
-    line-height: 2px;
+    line-height: 1px;
 }
 
 .mail-list h3 {
-    padding-top: 0;
     font-size: 16px;
     color: black;
-    line-height: 2px;
+    line-height: 16px;
 }
 
-#
+#May_June {
+    border-left: 6px solid #fff;
+}
+
+#May_June:hover {
+    background-color: #eee;
+    opacity: 0.9;
+}
+#Johny_Cash {
+    border-left: 6px solid #1B98F8;
+}
+
+#Your_Wordpress {
+    border-left: 6px solid #1B98F8;
+}
+
+#June_Ray {
+    border-left: 6px solid #fff;
+}
+
+#Andrew_Clearwater {
+    border-left: 6px solid #fff;
+}
+
+#Chris_Duck {
+    border-left: 6px solid #fff;
+}
+
+#Helen_Dominic {
+    border-left: 6px solid #fff;
+}
+
+.mail-list img {
+    width: 42px;
+    height: 42px;
+    border-radius: 3px ;
+    padding-top: 10px;
+    margin-right: 8px;
+    margin-bottom: 42px;
+    padding-left: 10px;
+    }
+
+#mail {
+    width: 100%;
+    font-size: 16px;
+    margin: 16px 0;
+    overflow: auto;
+    font-size: 16px;
+
+}
+
+#right_column {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #999;
+    width: 400px;
+    text-align: right;
+}
+
+#right_column span {
+    padding: 6px 26px;
+}
+
+#title {
+    font-size: 32px;
+    color: black;
+    display: flex;
+}
+
+#mail p {
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+#niebieskie {
+    color: #1B98F8
+}
+
+#data {
+    color: #999;
+}
+
 
 
