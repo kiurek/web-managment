@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#main {
+    margin: 0;
+}
+
+#top_bar {
+    background-color: #1b1b1b;
+    color: #a4a4a4;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#top_bar span {
+    font-size: 16px;
+    padding: 40px 20px;
+}
+
+#top_bar :hover {
+    color: lightgreen;
+}
+
+
