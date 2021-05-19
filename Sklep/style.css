@@ -28,7 +28,7 @@ body {
 }
 
 #top_bar :hover {
-    color: lightgreen;
+    color: rgb(54, 184, 54);
 }
 
 #meat {
@@ -47,13 +47,19 @@ body {
     width: 100%;
     height: 200px;
     margin-top: 20px;
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    padding-left: 20%;
-    padding-right: 20%;
+    left: 0;
+    bottom: 0;
 }
 
 #left {
-    
+    padding-left: 20%;
+}
+
+#left p {
+    height: 15px;
+    border-left: 20px solid #1b1b1b;
 }
 
