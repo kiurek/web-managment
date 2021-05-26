@@ -5,6 +5,7 @@ body {
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
+    font-family: robotobold_condensed;
 }
 
 #main {
@@ -16,11 +17,21 @@ body {
     height: 100px;
     width: 100%;
     display: grid;
-    grid-template-columns:  14% 14% 14% 14% 14% 14% 14%;
+    grid-template-columns:  40% 100px 100px 100px 100px 100px 100px;
     grid-template-rows: 100px;
-    gap: 100px 0px;
-    align-items: right;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
     padding-top: 50px;
-    margin-left: 100px;
+    padding-left: 30%;
+    font-size: 20px;
 }
+
+#buttons {
+    height: 40;
+    width: 95;
+}
+
+
+
 
