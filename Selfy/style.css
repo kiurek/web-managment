@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-image: url(masthead@2x.jpg);
+    background-position: top center;
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#main {
+    margin: 0;
+    display: grid;
+}
+
+#top_bar {
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns:  14% 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: 100px;
+    gap: 100px 0px;
+    align-items: right;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
