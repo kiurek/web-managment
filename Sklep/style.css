@@ -25,6 +25,11 @@ body {
     opacity: 0.99;
 }
 
+#top_bar a {
+    color: #a4a4a4;
+    text-decoration: none;
+}
+
 #top_bar span {
     font-size: 16px;
     padding-top: 40px;
@@ -85,6 +90,7 @@ body {
     padding-left: 20%;
     bottom: 0;
     left: 0;
+    position:fixed;
 }
 
 #left p {
@@ -94,5 +100,12 @@ body {
 
 #right img {
     margin-top: 20px;
+}
+
+#header_kontakt {
+    background-image: url(kontakt.jpg);
+    background-repeat: no-repeat;
+    height: 360px;
+    padding-bottom: 1000px;
 }
 
