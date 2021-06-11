@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    color: black;
+    color: #1b1b1b;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -24,6 +24,7 @@ body {
     padding-left: 15%;
     opacity: 0.99;
 }
+
 #top_bar a {
     color: #a4a4a4;
     text-decoration: none;
@@ -44,37 +45,31 @@ body {
     color: rgb(54, 184, 54);
 }
 
-
 #header {
-    background-image:url(/Sklep/graphics/kontakt.jpg);
+    background-image: url(/Sklep/graphics/adobe1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    background-size: cover;
+    padding-top: 100px;
+    height: 210px;
     text-align:left;
     margin-top: 100px;
-    color: #fff;   
-    text-shadow: #1b1b1b 0.2em 0.2em 0.2em;
+    color: #1b1b1b;   
+    text-shadow: #fff 0.2em 0.2em 0.2em;
 }
 
-#header h2 {
-    font-size: 60px;
+#header h1 {
+    font-size: 40px;
     padding-left: 20%;
 }
 
 #meat {
+    background-color: #fff;
     display: grid;
-    grid-template-columns: 700px 300px;
-    grid-template-rows: 500px 500px;
-    gap: 50px;
-    font-size: 16px;
+    grid-template-columns: 800px;
+    grid-template-rows: 200px 200px 200px 200px;
     padding-left: 20%;
-
-}
-
-#meat_left {
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 50px 150px 150px 150px;
+    padding-bottom: 50px;
 }
 
 #footer {
@@ -88,6 +83,7 @@ body {
     margin-top: 50px;
     bottom: 0;
     left: 0;
+    position: absolute;
 }
 
 #left p {
