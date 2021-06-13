@@ -68,13 +68,18 @@ body {
     gap: 50px;
     font-size: 16px;
     padding-left: 20%;
-
 }
 
 #meat_left {
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 50px 150px 150px 150px;
+}
+
+#meat_left img {
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
 }
 
 #footer {
@@ -90,9 +95,19 @@ body {
     left: 0;
 }
 
+#left a {
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
 #left p {
-    height: 15px;
-    border-left: 20px solid #1b1b1b;
+    margin-bottom: 0;
+}
+
+#left img {
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
 }
 
 #center span {

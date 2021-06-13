@@ -66,10 +66,13 @@ body {
 #meat {
     background-color: #fff;
     display: grid;
-    grid-template-columns: 800px;
+    grid-template-columns: 1000px;
     grid-template-rows: 200px 200px 200px 200px;
+    gap: 50px;
     padding-left: 20%;
+    padding-top: 30px;
     padding-bottom: 50px;
+    font-size: 18px;
 }
 
 #footer {
@@ -83,12 +86,21 @@ body {
     margin-top: 50px;
     bottom: 0;
     left: 0;
-    position: absolute;
+}
+
+#left a {
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
+#left img {
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
 }
 
 #left p {
-    height: 15px;
-    border-left: 20px solid #1b1b1b;
+    margin-bottom: 0;
 }
 
 #center span {

@@ -68,9 +68,19 @@ body {
     left: 0;
 }
 
+#left a {
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
+#left img {
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
+}
+
 #left p {
-    height: 15px;
-    border-left: 20px solid #1b1b1b;
+    margin-bottom: 0;
 }
 
 #center span {
