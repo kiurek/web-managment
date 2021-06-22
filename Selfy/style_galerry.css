@@ -115,9 +115,10 @@ body {
     color: #656a6f;
 }
 
-#themes {
+#themes a {
     font-size: 16px;
-    color: #3c4a52;
+    text-decoration: none;
+    color: #3C4a52;
 }
 
 .rozmiar1 img {
@@ -158,7 +159,7 @@ body {
     display: grid;
     grid-template-columns: 0.4fr 0.3fr;
     grid-template-rows: 30px;
-    gap:670px;
+    gap:700px;
     height: 130px;
     margin-left: 25%;
     padding-top: 50px;

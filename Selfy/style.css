@@ -145,17 +145,29 @@ body {
 }
 
 #footer {
-    border-top: 1px solid #9fa6aa;
-    width: 1100px;
-    height: 150px;
+    display: grid;
+    grid-template-columns: 300px 110px;
+    grid-template-rows: 100px;
+    gap: 700px;
+    height: 130px;
     margin-left: 30%;
     padding-top: 50px;
+    margin-top: 50px;
     color: #9fa6aa;
 }
 
-#footer img {
+.left {
     width: 45px;
     height: 19px;
+}
+
+#right {
+    align-items: right;
+}
+
+.right {
+    width: 31px;
+    height: 31px;
 }
 
 
