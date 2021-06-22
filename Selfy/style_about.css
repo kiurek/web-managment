@@ -25,7 +25,7 @@ body {
     align-items: center;
     text-align: center;
     padding-top: 25px;
-    padding-left: 25%;
+    padding-left: 30%;
     padding-bottom: 30px;
     font-size: 20px;
     position:absolute;
@@ -111,7 +111,7 @@ body {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 200px;
-    padding-left: 25%;
+    padding-left: 30%;
 }
 
 #meat img {
@@ -148,7 +148,7 @@ body {
     border-top: 1px solid #9fa6aa;
     width: 1100px;
     height: 130px;
-    margin-left: 25%;
+    margin-left: 30%;
     padding-top: 50px;
     color: #9fa6aa;
 }

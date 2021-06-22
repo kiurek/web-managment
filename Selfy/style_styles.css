@@ -50,8 +50,7 @@ body {
 #button2 {
     height: 38px;
     width: 102;
-    background-color: #ffc000;
-    color: #fff;
+    color: #2d3438;
     text-align:center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
@@ -62,7 +61,8 @@ body {
 #button3 {
     height: 38px;
     width: 102;
-    color: #2d3438;
+    background-color: #ffc000;
+    color: #fff;
     text-align:center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
