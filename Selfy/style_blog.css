@@ -10,6 +10,11 @@ body {
     gap: 50px;
 }
 
+#dots {
+    color: #ffc000;
+    font-size: 14px;
+}
+
 #top_bar img {
     width: 131px;
     height: 52px;
@@ -25,7 +30,7 @@ body {
     align-items: center;
     text-align: center;
     padding-top: 25px;
-    padding-left: 25%;
+    padding-left: 20%;
     padding-bottom: 30px;
     font-size: 20px;
     position:absolute;
@@ -96,4 +101,38 @@ body {
     font-size: 20px;
     border-radius: 4px;
     padding-top: 15px;
+}
+
+#meat {
+    display: grid;
+    padding-top: 150px;
+    padding-left: 20%;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+    line-height: 20px;
+
+}
+
+#meat img {
+    width: 670px;
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+#meat h2 {
+    font-size: 36px;
+    color: #2d3438;
+    margin-bottom: 3px;
+}
+
+#meat h3 {
+    font-size: 24px;
+    color: #3c4a52;
+}
+
+#meat p {
+    font-size: 16px;
+    color: #656a6f;
+    padding-bottom: 50px;
 }
